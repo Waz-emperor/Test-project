@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(12, 17, 92);
+  
+}
+
+.bvid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.6;
+   }
+
+   .content {
+    display: flex;   
+    position: relative;
+       z-index: 10;
+       justify-content: space-around;
+   }
+
+   .pic {
+     object-fit: scale-down;
+     width: 700px;
+     z-index: 10;
+   }
+
+   .txt {
+       position: relative;
+       z-index: 12;
+       left: -800;
+       max-width: 400px;
+   }
+
+   .ftr {
+       position: relative;
+   }
+
+   footer {
+       display: flex;
+       justify-content: space-around;
+      
+   }
