@@ -8,7 +8,8 @@ body {
     right: 0;
     bottom: 0;
     min-width: 100%;
-    min-height: 100%;
+    background: url(./cfiles/stars.mp4) no-repeat center center fixed;
+    background-size: cover;
     opacity: 0.6;
    }
 
@@ -19,17 +20,13 @@ body {
        justify-content: space-around;
    }
 
-   .pic {
-     object-fit: scale-down;
-     width: 700px;
-     z-index: 10;
-   }
-
    .txt {
        position: relative;
+       object-fit: scale-down;
        z-index: 12;
-       left: -800;
-       max-width: 400px;
+       max-width: 500px;
+       background-image: url(./cfiles/sky.jpg);
+       border: 5px solid black;
    }
 
    .ftr {
